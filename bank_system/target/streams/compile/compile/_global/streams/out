@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\andre\Documents\dev\scala\scala_project_2024\bank_system\src\main\scala\Bank.scala:37:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.ListBuffer[Transaction][0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Transaction][0m
+[0m[[0m[31merror[0m] [0m[0m      transactionsPool.transactions.filter((t: Transaction) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\andre\Documents\dev\scala\scala_project_2024\bank_system\src\main\scala\Bank.scala:43:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.ListBuffer[Transaction][0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Transaction][0m
+[0m[[0m[31merror[0m] [0m[0m      transactionsPool.transactions.filter((t: Transaction) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\andre\Documents\dev\scala\scala_project_2024\bank_system\src\main\scala\Bank.scala:47:17: not enough arguments for method map: (f: Transaction => B)(implicit bf: scala.collection.generic.CanBuildFrom[List[Transaction],B,That])That.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter f.[0m
+[0m[[0m[31merror[0m] [0m[0m    succeded.map( /* remove transactions from the transaction pool */ )[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\andre\Documents\dev\scala\scala_project_2024\bank_system\src\main\scala\Bank.scala:48:17: not enough arguments for method map: (f: Transaction => B)(implicit bf: scala.collection.generic.CanBuildFrom[List[Transaction],B,That])That.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter f.[0m
+[0m[[0m[31merror[0m] [0m[0m    succeded.map( /* add transactions to the completed transactions queue */ )[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
