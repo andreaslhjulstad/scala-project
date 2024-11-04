@@ -1,0 +1,9 @@
+# vscode
+.vscode/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
