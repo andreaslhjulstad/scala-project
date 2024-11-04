@@ -1,4 +1,5 @@
 import scala.collection.mutable.ListBuffer
+
 object TransactionStatus extends Enumeration {
   val SUCCESS, PENDING, FAILED = Value
 }
@@ -7,7 +8,7 @@ class TransactionPool {
 
   val transactions = ListBuffer.empty[Transaction]
 
-  // Remove and the transaction from the pool
+  // Remove a transaction from the pool
   def remove(t: Transaction): Boolean = this.synchronized {
     val index = transactions.indexOf(t)
     if (index >= 0) {
@@ -62,7 +63,4 @@ class Transaction(
   }
 
   def getAttempts() = attempts
-
-  // TODO: Implement methods that change the status of the transaction
-
 }
